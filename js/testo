@@ -1,0 +1,27 @@
+var data = [
+  { word: "lorem", count: 3 },
+  { word: "ipsum", count: 7 },
+  { word: "Earth", count: 12 },
+  { word: "Like", count: 14 },
+  { word: "Coding", count: 90 },
+  { word: "BADD", count: 3 },
+  { word: "what", count: 3 }
+];
+
+$( ".analyze-button" ).on("click", function() {
+/*    var $this = $(this);
+		var newItem1 = ($this.val());
+		if (newItem1 !== "") {
+			$(".text-to-analyze").append('<tr><td>TEST</td><td>TEST2</td></tr>');
+	}*/
+});
+
+	var newTRs = data.map(function(e)) {
+		
+		console.log(e)
+		return 1
+	}
+  // Construct the table rows from the data elements
+  // append them to the table
+  // create a tr: $("<tr><td>WORD</td><td>COUNT</td></tr>")
+  // .append(something)
